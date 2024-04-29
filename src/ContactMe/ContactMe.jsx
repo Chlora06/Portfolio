@@ -1,8 +1,8 @@
 import Behance from '../img/icon/Behance.png'
-import Github from '../img/icon/Github.png'
+import Github from '../img/icon/GitHub.png'
 import Instagram from '../img/icon/Instagram.png'
 import Letter from '../img/icon/Letter.png'
-import Linkedin from '../img/icon/Linkedin.png'
+import Linkedin from '../img/icon/LinkedIn.png'
 const ContactMe = () => {
   return (
     <div className="contact" id="Contact">

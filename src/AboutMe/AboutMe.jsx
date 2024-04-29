@@ -1,8 +1,5 @@
 import project from '../img/p-img1.png'
-import ins from "../img/ins.png";
-import github from "../img/github.png";
-import indeed from "../img/indeed.png";
-import linkedin from "../img/linkedin.png";
+
 import resume from "../img/Resume 1.0.pdf";
 const AboutMe = () => {
   return (

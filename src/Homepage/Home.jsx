@@ -2,6 +2,7 @@ import Myphoto from '../img/Myphoto.png'
 import ins from '../img/ins.png';
 import github from '../img/github.png';
 import linkedin from '../img/linkedin.png';
+import Behance from '../img/Behance.png'
 
 import TypingAnimation from './TypingAnimation';
 
@@ -29,6 +30,13 @@ const Home = () => {
             rel="noreferrer"
           >
             <img src={ins} alt="ins-icon" />
+          </a>
+          <a
+            href="https://www.behance.net/chloraliu"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={Behance} alt="ins-icon" />
           </a>
           <a
             href="https://github.com/Chlora06"

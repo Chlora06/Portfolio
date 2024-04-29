@@ -2,8 +2,14 @@
   width: 75%;
   height: 100vh;
   margin: 0 auto;
-  font-family: 'Inter Tight', sans-serif;
+  font-family:  "Karma", serif;
   padding-top: 6.5vw;
+  
+  &-title{
+    font-size: 3vw;
+    font-family:  "Karma", serif;
+    font-weight: 500;
+  }
   &-container{
     display: flex;
     width: 100%;
@@ -11,17 +17,22 @@
     &-left {
       width: 50%;
       height: 100%;
-      margin-left: 3vw;
-     
+      margin-left: 2vw;
+      margin-top: 1vw;
+      background-color: $lightLightGray;
+      border-radius: 2vw;
+      box-shadow: 10px 10px 20px 0px rgb(0, 0, 0, 0.5);
+      padding: 3vw;
         &-sentence{
-          font-size: 1.5vw;
+          font-size: 1.2vw;
           line-height: 2.5vw;   
-      }
+          font-weight: 500;
+        }
       &-bottom{
         margin-bottom: 3vh;
         &-skills{
           margin-top: 1vw;
-          font-size: 1.5vw;
+          font-size: 1.2vw;
           line-height: 3vw;          
           & p{
             font-weight: 700;
@@ -37,7 +48,7 @@
           }
           &-resume {
             font-size: 1.5vw;
-            color: $content-color;
+            color: $darkBlue;
             font-weight: 700;
           }
         }
@@ -46,6 +57,7 @@
     &-right{
       width: 50%;  
       margin-left: 5vw;    
+      margin-top: 3vw;
       &-bottom{          
         &-picture img {
           width: 100%;

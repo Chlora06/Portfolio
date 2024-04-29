@@ -4,6 +4,7 @@ import resume from "../img/Resume 1.0.pdf";
 const AboutMe = () => {
   return (
     <div className="aboutMe" id="About">
+      <p className='aboutMe-title'>About Me</p>
       <div className="aboutMe-container">
         <div className="aboutMe-container-left">
           <p className="aboutMe-container-left-sentence">

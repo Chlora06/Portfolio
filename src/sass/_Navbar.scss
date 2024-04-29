@@ -4,16 +4,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: 'Jim Nightshade', cursive;
+  font-family: "Karma", serif;
   position: sticky;
   top: 0;
   z-index: 100;
-  background: $light-color;
-  border-bottom: 1px solid $white;
+  background: $darkBlue;
+  border-bottom: 1px solid $lightGray;
+  color: $lightWhite;
   
   .nav-logo{  
-    font-size: 5vw;
+    font-size: 4vw;
     margin-left: 12vw;
+    margin-top: 1vw;
   }
   .menu-list {
     list-style: none;
@@ -43,13 +45,13 @@
         }
         &:hover { 
           .dot{
-            background-color: $content-color;
+            background-color: $lightGray;
           }
                   
         }
       &-link {
         text-decoration: none;
-        color: $dark-color;
+        color: $lightWhite;
        
       }
     }

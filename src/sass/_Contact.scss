@@ -3,14 +3,17 @@
   height: 50vh;
   margin: 0 auto;
   font-family: 'Inter Tight', sans-serif;
+  background-color: $darkBlue;
+  color: $lightWhite;
   &-title {
     margin-left: 15%;
+    padding-top: 5%;
     font-size: 3vw;
-    font-family: 'Jim Nightshade', cursive;;
+    font-family: "Karma", serif;
   }
   &-container {
-    margin-left: 20%;
-    margin-top: 3vw;
+    margin-left: 15%;
+    margin-top: 2vw;
     display: flex;
     &-left, &-right {
       margin-right: 10%;
@@ -25,9 +28,9 @@
         }
         & a {
           font-size: 1.5vw;
-          margin-bottom: 10%;
+          margin-bottom: 5%;
           font-weight: 500;
-          color: $dark-color;
+          color: $lightGray
         }
       }
     }

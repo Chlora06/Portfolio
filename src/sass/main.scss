@@ -7,9 +7,8 @@
 
 
 body {
-  background: linear-gradient(to right bottom, $light-color, white 50%);
-  background-attachment: fixed;
-  color: $dark-color;
+  background: $lightWhite;
+  color: $darkBlue;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1;
 }

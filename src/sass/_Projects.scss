@@ -6,44 +6,45 @@
   padding-top: 6.5vw;
   &-title {
     font-size: 3vw;
-    font-family: 'Jim Nightshade', cursive;;
+    font-family: "Karma", serif;
   }
   &-container {
     margin-top: 3vw;
-    &-project {
-      
+
+    &-project {  
       display: flex;
-      width: 100%;
-      background-color: #F5F8FE;
-      margin-bottom: 2%;
+      width: 90%;
+      height: 15vw;
+      background-color: $lightLightGray;
+      margin-bottom: 5%;
+      margin-left: 5%;
       border-radius: 2vw;
+      border: 1px solid $lightGray;
+      box-shadow: 5px 10px 20px 0px rgb(0, 0, 0, 0.2);
       & img {
         cursor: pointer;
-        width: 90%;
-        height: 100%;
+        width: 28vw;
+        height: 15vw;
         object-fit: cover;
-        margin-left: 10%;
-        margin-bottom: 3%;
-        margin-top: 3%;
         border-radius: 2vw;
       }
       &-text {
-        margin-left: 5%;
-        margin-top: 5%;
+        margin-top: 3%;
         & p.title{
           font-size: 1.5vw;
           font-weight: 700;
-          margin-bottom: 3%;  
+          margin-bottom: 3%;
+          padding-right: 1vw; 
+          line-height: 2vw; 
         }
         &-link {
-          margin-top: 10%;
           font-size: 1.5vw;
           margin-left: 10%;
           & a{
             display: block;
-            margin-bottom: 10%;
+            margin-bottom: 5%;
             font-weight: 500;
-            color: $dark-color;
+            color: $darkBlue;
           }
         }
       }  
@@ -58,17 +59,17 @@
 }
 .image-description {
   font-family: 'Inter Tight', sans-serif;
-  width: 90%;
-  height: 100%;
+  width: 28vw;
+  height: 15vw;
   border-radius: 2vw;
   line-height: 2vw;
   background-color: rgba(255, 255, 255, 0.8);
   position: absolute;
   padding-top: 3%;
-  top: 3%;
-  left: 10%;
-  color: $dark-color;
+  top: 0;
+  color: $darkBlue;
   font-weight: 500;
+  padding: 1vw;
 }
 
 .image-container:hover .image-description {

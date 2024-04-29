@@ -1,0 +1,21 @@
+$white: #F5F5F5;
+$content-color: #45589A;
+$pink: #D0217F;
+$light-blue: #0B8AFF;
+
+$light-color: #D5E5F7;
+$dark-color: #2B4271;
+
+@import url(https://fonts.googleapis.com/css2?family=Jim+Nightshade&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+

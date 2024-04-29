@@ -1,0 +1,19 @@
+@import 'config';
+@import 'Navbar';
+@import 'Home';
+@import 'About';
+@import 'Projects';
+@import 'Contact';
+
+
+body {
+  background: linear-gradient(to right bottom, $light-color, white 50%);
+  background-attachment: fixed;
+  color: $dark-color;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1;
+}
+.myBody {
+  height: 100%;
+  width: 100%;
+}

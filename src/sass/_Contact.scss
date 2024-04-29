@@ -1,0 +1,35 @@
+.contact{
+  width: 100%;
+  height: 50vh;
+  margin: 0 auto;
+  font-family: 'Inter Tight', sans-serif;
+  &-title {
+    margin-left: 15%;
+    font-size: 3vw;
+    font-family: 'Jim Nightshade', cursive;;
+  }
+  &-container {
+    margin-left: 20%;
+    margin-top: 3vw;
+    display: flex;
+    &-left, &-right {
+      margin-right: 10%;
+      &-item {
+        display: flex;
+        margin-bottom: 1%;
+        
+        & img {
+          width: 2vw;
+          height: 2vw;
+          margin-right: 1vw;
+        }
+        & a {
+          margin-bottom: 10%;
+          font-weight: 500;
+          color: $dark-color;
+        }
+      }
+    }
+  }
+  
+}

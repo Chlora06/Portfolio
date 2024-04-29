@@ -1,0 +1,89 @@
+.homepage {
+  width: 75%;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  
+  &-title {
+    width: 70%;
+    height: auto;
+    margin-right: 5%;
+    margin-top: 15%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter Tight', sans-serif;
+    &-hello, &-sentence{
+      font-weight: 300;
+      font-size: 2.5vw;
+      margin-bottom: 1.5vw;
+    }
+    &-sentence{
+      font-size: 1.5vw;
+    }
+    &-name {
+      font-weight: 800;
+      font-size: 5vw;
+      margin-bottom: 1.5vw;
+    }
+    &-role {
+      font-weight: 300;
+      font-size: 2.5vw;
+      line-height: 1.5;
+      margin-bottom: 1.5vw;
+    }
+  }
+  &-icon {
+    display: flex;
+    flex-direction: row;
+    & img {
+      height: 3vw;
+      margin: 1.5rem;
+      margin-left: 0;
+    }
+  }
+
+  &-photo {    
+    position: relative; 
+    width: 50%;
+    height: auto;
+    margin-top: 5%;
+    
+    &-img { 
+      &.Myself {
+        width: 25vw;
+        position: absolute;
+        z-index: 10;
+        top: 2vh;
+        left: 4vw;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+        &:hover {
+          transform:  translateY(-5px);
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    font-size: 16px;
+  }
+  .homepage-photo-img.circle {
+    display: none;
+  }
+  .homepage-title-container {
+    border-right: 1px solid #88a0f6;
+  }
+}
+
+.cursor {
+  animation: blink 1s step-start 0s infinite;
+}
+
+
+
+
+

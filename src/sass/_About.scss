@@ -1,0 +1,61 @@
+.aboutMe{
+  width: 75%;
+  height: 100vh;
+  margin: 0 auto;
+  font-family: 'Inter Tight', sans-serif;;
+  &-container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    &-left {
+      width: 50%;
+      height: 100%;
+      margin-left: 3vw;
+     
+        &-sentence{
+          font-size: 1.5vw;
+          line-height: 2.5vw;   
+      }
+      &-bottom{
+        margin-bottom: 3vh;
+        &-skills{
+          margin-top: 1vw;
+          font-size: 1.5vw;
+          line-height: 3vw;          
+          & p{
+            font-weight: 700;
+            margin-bottom: 0.5vw;
+          }
+        }
+        &-smallPieces{
+          margin-bottom: 1vw;
+          &-icon img {
+            margin-right: 1vw;
+            margin-bottom: 1vw;
+            width: 3vw;
+          }
+          &-resume {
+            font-size: 1.5vw;
+            color: $content-color;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+    &-right{
+      width: 50%;  
+      margin-left: 5vw;    
+      &-bottom{          
+        &-picture img {
+          width: 100%;
+          height: 75vh;
+          object-fit: cover;
+        }
+      }  
+    }
+  }
+}
+ 
+
+
+

@@ -56,8 +56,6 @@
         position: absolute;
         z-index: 10;
         top: 2vh;
-        left: 4vw;
-        cursor: pointer;
         transition: transform 0.3s ease;
         &:hover {
           transform:  translateY(-5px);

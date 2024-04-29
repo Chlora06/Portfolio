@@ -38,13 +38,12 @@ const Home = () => {
             <img src={github} alt="ins-icon" />
           </a>
           <a
-            href="www.linkedin.com/in/zaijing-liu-161275271"
+            href="https://www.linkedin.com/in/zaijingliu06/"
             target="_blank"
             rel="noreferrer"
           >
             <img src={linkedin} alt="ins-icon" />
           </a>
-
         </div>
       </div>
 

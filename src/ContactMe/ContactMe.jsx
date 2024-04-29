@@ -18,7 +18,7 @@ const ContactMe = () => {
           <div className="contact-container-left-item">
             <img src={Linkedin} alt="linkedin-icon" />
             <a
-              href="www.linkedin.com/in/zaijing-liu-161275271"
+              href="https://www.linkedin.com/in/zaijingliu06/"
               rel="noreferrer"
               target="_blank"
             >
@@ -35,7 +35,6 @@ const ContactMe = () => {
               https://www.behance.net/chloraliu
             </a>
           </div>
-          
         </div>
         <div className="contact-container-right">
           <div className="contact-container-right-item">

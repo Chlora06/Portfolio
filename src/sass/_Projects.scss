@@ -31,13 +31,13 @@
         margin-left: 5%;
         margin-top: 5%;
         & p.title{
-          font-size: 24px;
+          font-size: 1.5vw;
           font-weight: 700;
           margin-bottom: 3%;  
         }
         &-link {
           margin-top: 10%;
-          font-size: 20px;
+          font-size: 1.5vw;
           margin-left: 10%;
           & a{
             display: block;
@@ -61,7 +61,7 @@
   width: 90%;
   height: 100%;
   border-radius: 2vw;
-  line-height: 25px;
+  line-height: 2vw;
   background-color: rgba(255, 255, 255, 0.8);
   position: absolute;
   padding-top: 3%;

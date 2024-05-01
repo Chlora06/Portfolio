@@ -23,8 +23,20 @@ const Projects = () => {
           <div className="projects-container-project-text">
             <p className="title">CSC648: Software Engineering - Travel Wise </p>
             <div className="projects-container-project-text-link">
-              <a href="#">Figma Link</a>
-              <a href="#">Github Link</a>
+              <a
+                href="https://www.figma.com/file/RD0A8zw1ulz1KuEk5hVbFw/Travel-wise?type=design&node-id=0%3A1&mode=design&t=WzKFTAo1xicQIIiz-1"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Figma Link
+              </a>
+              <a
+                href="https://tp2024.westus3.cloudapp.azure.com/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Github Link
+              </a>
             </div>
           </div>
         </div>

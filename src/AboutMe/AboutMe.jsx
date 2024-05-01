@@ -1,6 +1,6 @@
 import project from '../img/p-img1.png'
 
-import resume from "../img/Resume 1.0.pdf";
+import resume from "../img/Resume.pdf";
 const AboutMe = () => {
   return (
     <div className="aboutMe" id="About">

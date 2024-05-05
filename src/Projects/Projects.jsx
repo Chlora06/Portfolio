@@ -3,6 +3,8 @@ import project3 from '../img/project3.png'
 import project2 from '../img/project2.png'
 import project1 from '../img/project1.png'
 import HoverDescription from './HoverDescription'
+import M1 from "../img/CSC 648-848 M1.pdf";
+import M2 from "../img/CSC 648-848 M2.pdf";
 const Projects = () => {
   
   return (
@@ -36,6 +38,20 @@ const Projects = () => {
                 target="_blank"
               >
                 Github Link
+              </a>
+              <a
+                href={M1}
+                download="CSC648 M1-personas.pdf"
+                className="aboutMe-container-left-bottom-smallPieces-resume"
+              >
+                <p> Click to download Personas and User Stories</p>
+              </a>
+              <a
+                href={M2}
+                download="CSC648 M2-wireframe.pdf"
+                className="aboutMe-container-left-bottom-smallPieces-resume"
+              >
+                <p> Click to download Wireframe and user flow</p>
               </a>
             </div>
           </div>

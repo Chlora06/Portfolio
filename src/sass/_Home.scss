@@ -9,18 +9,15 @@
     width: 70%;
     height: auto;
     margin-right: 5%;
-    margin-top: 10%;
+    margin-top: 10vw;
     margin-left: 10%;
     display: flex;
     flex-direction: column;
     font-family: 'Inter Tight', sans-serif;
-    &-hello, &-sentence{
+    &-hello{
       font-weight: 300;
       font-size: 2.5vw;
       margin-bottom: 1.5vw;
-    }
-    &-sentence{
-      font-size: 1.5vw;
     }
     &-name {
       font-weight: 800;
@@ -48,7 +45,7 @@
     position: relative; 
     width: 50%;
     height: auto;
-    margin-top: 2%;
+    margin-top: 2vw;
     
     &-img { 
       &.Myself {
@@ -65,23 +62,41 @@
   }
 }
 
-@media screen and (max-width: 1000px) {
-  body {
-    font-size: 16px;
-  }
-  .homepage-photo-img.circle {
-    display: none;
-  }
-  .homepage-title-container {
-    border-right: 1px solid #88a0f6;
-  }
-}
 
 .cursor {
   animation: blink 1s step-start 0s infinite;
 }
 
+@media (min-width: 1025px) and (max-width: 1150px) {
+  .homepage{
+    &-title{
+      margin-top: 13vw;
+      &-hello{
+        font-size: 4vw;
+      } 
+      &-name{
+        font-size: 6vw;
+      }
+      &-role{
+        font-size: 3vw;
+      } 
+    }
+    &-photo {
+        margin-top: 5vw;
+        & img {
+          &.Myself{
+            width: 30vw;
+          }
+          
+        }
+      } 
 
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+  
+}
 
 
 

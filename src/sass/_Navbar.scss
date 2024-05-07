@@ -77,9 +77,13 @@
   }
 
 }
-@media (min-width:768px) and (max-width:1024px) {
+@media (max-width:1024px) {
   .nav-bar{
     height: 70px;
+    .nav-logo{
+      font-size: 48px;
+      margin-left: 45px;
+    }
     .hamburger{
       display: block;   
     }
@@ -95,6 +99,27 @@
     }
     .menu-list.open {
       display: block;
+    }
+  }
+}
+@media (min-width: 431px) and (max-width: 768px){
+  .nav-bar{
+    .menu-list{
+      font-size: 16px;
+      right: -10px;
+    }
+  }
+}
+@media (max-width: 431px){
+  .nav-bar{
+    height: 60px;
+    .nav-logo{
+      font-size: 36px;
+    }
+    .menu-list{
+      font-size: 16px;
+      right: 10px;
+      top: 60px;
     }
   }
 }

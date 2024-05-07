@@ -67,8 +67,9 @@
   animation: blink 1s step-start 0s infinite;
 }
 
-@media (min-width: 768px) and (max-width: 1150px) {
+@media (min-width: 1025px) and (max-width: 1150px) {
   .homepage{
+    
     &-title{
       margin-top: 13vw;
       &-hello{
@@ -95,13 +96,14 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px){
+@media (min-width: 751px) and (max-width: 1024px){
   .homepage{
-    
+    width: 85%;
     &-title{
       margin-top: 150px;
+      margin-right: 10px;
       width: 500px;
-      margin-left: 20px;
+      margin-left: 10px;
       &-hello{
         font-size: 32px;
       } 
@@ -118,7 +120,7 @@
       }
     }
     &-photo {
-        margin-top: 100px;
+        margin-top: 80px;
         & img {
           &.Myself{
             width: 280px;
@@ -128,6 +130,88 @@
       } 
   }
 }
+@media (min-width: 431px) and (max-width: 750px){
+  .homepage{
+    width: 95%;
+    height: 120vh;
+    &-title{
+      margin-top: 50px;
+      margin-left: 50px;
+      width: 500px;
+     
+      &-hello{
+        font-size: 28px;
+      } 
+      &-name{
+        font-size: 48px;
+      }
+      &-role{
+        font-size: 26px;
+      } 
+    }
+    &-icon {
+      flex-direction: column;
+      & img{
+        width: 30px;
+        margin-top: 10px;
+      }
+    }
+    &-photo {
+        margin-top: 180px;
+        width: 20%;
+        & img {
+          &.Myself{
+            width: 280px;
+            left: -250px;
+            z-index: 0;
+          }
+          
+        }
+      } 
+  }
+}
 
+@media (max-width: 430px){
+  .homepage{
+    width: 90%;
+    display: block;
+    height: auto;
+    &-title{
+      margin-top: 20px;
+      margin-left: 20px;
+      width: 280px;
+      &-hello{
+        font-size: 28px;
+      } 
+      &-name{
+        font-size: 36px;
+      }
+      &-role{
+        font-size: 24px;
+      } 
+    }
+    &-icon {
+      flex-direction: row;
+      & img{
+        width: 30px;
+        margin-top: 10px;
+
+      }
+    }
+    &-photo {
+        width: 20%;
+        margin-bottom: 30px;
+        margin-left: 20px;
+        & img {
+          &.Myself{
+            position: relative;
+            width: 240px;
+            z-index: 0;
+          }
+          
+        }
+      } 
+  }
+}
 
 

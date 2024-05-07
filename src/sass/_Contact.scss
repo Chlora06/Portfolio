@@ -43,7 +43,7 @@
     
   }
 }
-@media (min-width: 768px) and (max-width: 1024px){
+@media (min-width: 431px) and (max-width: 1024px){
   .contact{
     height: 300px;
     &-title{
@@ -55,6 +55,44 @@
         font-size: 16px;
         line-height: 20px;
         font-weight: 300;
+      }
+    }
+  }
+}
+@media (min-width: 431px) and (max-width: 768px){
+  .contact{   
+    &-container{
+      display: block;
+      & img{
+        width: 28px;
+        height: 28px;
+      }
+    }
+  }
+}
+@media (max-width: 431px) {
+  .contact{  
+    height: 40vh;
+    &-title {
+      margin-left: 10px;
+      padding-top: 5%;
+      font-size: 24px;
+      font-family: "Karma", serif;
+      font-weight: 500;
+    }
+    &-container{
+      display: block;
+      margin-left: 15px;
+      margin-top: 10px;
+      & img{
+        width: 16px;
+        height: 16px;
+      }
+      & a{
+        font-size: 12px;
+        line-height: 20px;
+        font-weight: 300;
+        font-family: "Karma", serif;
       }
     }
   }

@@ -14,8 +14,8 @@
 
     &-project {  
       display: flex;
-      width: 90%;
-      height: 15vw;
+      width: 95%;
+      height: 20vw;
       background-color: $lightLightGray;
       margin-bottom: 5%;
       margin-left: 5%;
@@ -24,8 +24,8 @@
       box-shadow: 5px 10px 20px 0px rgb(0, 0, 0, 0.2);
       & img {
         cursor: pointer;
-        width: 28vw;
-        height: 15vw;
+        width: 90%;
+        height: 100%;
         object-fit: cover;
         border-radius: 2vw;
       }
@@ -89,6 +89,27 @@
     }
     .image-description{
       font-size: 1.1vw;
+    }
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+  .projects{
+    &-title{
+      font-size: 32px; 
+    }
+    &-container-project{
+      height: 240px;  
+      &-text{
+        & p.title{
+          font-size: 16px;
+          margin-bottom: 10px;
+        }
+        &-link{
+          & a{
+            font-size: 16px;
+          }
+        }
+      }
     }
   }
 }

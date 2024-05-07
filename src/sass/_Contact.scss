@@ -6,7 +6,7 @@
   background-color: $darkBlue;
   color: $lightWhite;
   &-title {
-    margin-left: 15%;
+    margin-left: 12%;
     padding-top: 5%;
     font-size: 3vw;
     font-family: "Karma", serif;
@@ -41,5 +41,21 @@
   .contact{
      height: 35vh;
     
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+  .contact{
+    height: 300px;
+    &-title{
+      font-size: 32px;
+    }
+    &-container{
+      
+      & a{
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 300;
+      }
+    }
   }
 }

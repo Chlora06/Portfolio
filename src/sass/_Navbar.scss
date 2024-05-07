@@ -17,6 +17,16 @@
     margin-left: 12vw;
     margin-top: 1vw;
   }
+  .hamburger{
+    display: none;
+    font-size: 30px;
+    background: none;
+    border: none;
+    color: $lightWhite;
+    cursor: pointer;
+    margin-right: 50px;
+  }
+  
   .menu-list {
     list-style: none;
     display: flex;
@@ -24,8 +34,8 @@
     justify-content: center;
     margin-right: 8vw;
     font-size: 2vw;
-    
-    &-items {
+
+    .menu-list-items {
       margin-right: 5vw; 
       padding: 0.5rem;
       border-radius: 10px; 
@@ -66,4 +76,25 @@
     }
   }
 
+}
+@media (min-width:768px) and (max-width:1024px) {
+  .nav-bar{
+    height: 70px;
+    .hamburger{
+      display: block;   
+    }
+    .menu-list {
+      flex-direction: column;
+      position: absolute;
+      background-color: $darkBlue;
+      right: -15px;
+      top: 70px;
+      display: none;
+      transition: transform 0.3s ease;
+      border-radius: 5px;
+    }
+    .menu-list.open {
+      display: block;
+    }
+  }
 }

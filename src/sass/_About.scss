@@ -14,11 +14,11 @@
     display: flex;
     width: 100%;
     height: 90%;
+    margin-top: 3vw;
     &-left {
       width: 50%;
       height: 100%;
       margin-left: 2vw;
-      margin-top: 1vw;
       background-color: $lightLightGray;
       border-radius: 2vw;
       box-shadow: 10px 10px 20px 0px rgb(0, 0, 0, 0.5);
@@ -77,6 +77,31 @@
       &-bottom {
         &-skills{
           font-size: 1.5vw;
+        }
+        
+      }
+      
+    }
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+  .aboutMe{
+    &-title{
+      font-size: 32px;
+    }
+    &-container-left{
+      &-sentence{
+        font-size: 16px;
+        font-weight: 500;
+      }
+      &-bottom {
+        &-skills{
+          font-size: 18px;
+        }
+        &-smallPieces{
+          &-resume{
+            font-size: 16px;
+          }
         }
       }
       

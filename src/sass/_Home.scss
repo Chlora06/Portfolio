@@ -97,12 +97,13 @@
 @media (min-width: 751px) and (max-width: 1024px){
   .homepage{
     width: 85%;
-    height: 85vh;
+    height: auto;
     &-title{
-      margin-top: 150px;
+      margin-top: 100px;
       margin-right: 10px;
       width: 500px;
       margin-left: 10px;
+      margin-bottom: 100px;
       &-hello{
         font-size: 32px;
       } 
@@ -119,7 +120,7 @@
       }
     }
     &-photo {
-        margin-top: 80px;
+        margin-top: 30px;
         & img {
           &.Myself{
             width: 280px;
@@ -132,7 +133,6 @@
 @media (min-width: 431px) and (max-width: 750px){
   .homepage{
     width: 95%;
-    height: 95vh;
     &-title{
       margin-top: 50px;
       margin-left: 50px;

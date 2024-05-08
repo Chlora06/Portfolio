@@ -1,14 +1,25 @@
-import {useState} from 'react';
+import {useState, useEffect, useRef} from 'react';
 const Navbar = () => {
   const[isOpen, setIsOpen] = useState(false);
-
+  const menuRef = useRef();
+  const handleClickOutside = (event) => {
+    if(menuRef.current && !menuRef.current.contains(event.target)){
+      setIsOpen(false);
+    }
+  };
+  useEffect(()=>{
+    document.addEventListener('mousedown', handleClickOutside);
+    return ()=>{
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, []);
   return (
     <nav className="nav-bar">
       <div className="nav-logo">Portfolio</div>
       <button className='hamburger' onClick={()=>setIsOpen(!isOpen)}>
         &#9776;
       </button>
-      <div className={`menu-list ${isOpen ? 'open': ''}`}>  
+      <div className={`menu-list ${isOpen ? 'open': ''}`} ref={menuRef}>  
         <div className="menu-list-items">
           <a href="#" className="menu-list-items-link">
             <div className="dot"></div>

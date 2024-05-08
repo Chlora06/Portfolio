@@ -1,6 +1,6 @@
 .homepage {
   width: 75%;
-  height: 100vh;
+ height: 100vh;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -69,9 +69,10 @@
 
 @media (min-width: 1025px) and (max-width: 1150px) {
   .homepage{
-    
+    height: 90vh;
     &-title{
       margin-top: 13vw;
+      margin-left: 1vw;
       &-hello{
         font-size: 4vw;
       } 
@@ -82,23 +83,21 @@
         font-size: 3vw;
       } 
     }
-    
     &-photo {
         margin-top: 5vw;
         & img {
           &.Myself{
             width: 30vw;
-          }
-          
+          }  
         }
       } 
-
   }
 }
 
 @media (min-width: 751px) and (max-width: 1024px){
   .homepage{
     width: 85%;
+    height: 85vh;
     &-title{
       margin-top: 150px;
       margin-right: 10px;
@@ -133,7 +132,7 @@
 @media (min-width: 431px) and (max-width: 750px){
   .homepage{
     width: 95%;
-    height: 120vh;
+    height: 95vh;
     &-title{
       margin-top: 50px;
       margin-left: 50px;
@@ -173,13 +172,16 @@
 
 @media (max-width: 430px){
   .homepage{
-    width: 90%;
-    display: block;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     height: auto;
+
     &-title{
-      margin-top: 20px;
-      margin-left: 20px;
       width: 280px;
+
       &-hello{
         font-size: 28px;
       } 
@@ -199,9 +201,8 @@
       }
     }
     &-photo {
-        width: 20%;
-        margin-bottom: 30px;
-        margin-left: 20px;
+      width: 240px;
+        margin: 0 auto;
         & img {
           &.Myself{
             position: relative;
